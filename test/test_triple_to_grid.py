@@ -237,6 +237,3 @@ class Test_triple_to_grid_float32(ut.TestCase):
                                          missing_value=-99,
                                          distmx=distmx)
         np.testing.assert_array_equal(out_expected_distmx_msg_99.astype(np.float32), out.values)
-
-# a = Test_triple_to_grid_float64()
-# a.test_triple_to_grid_float64_method_0()
